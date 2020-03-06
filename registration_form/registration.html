@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="view.css" media="all" />
+	<script type="text/javascript" src="view.js"></script>
+</head>
+
+<body id="main_body">
+	<div id="form_container">
+		<h1><a>Registration Form</a></h1>
+		<form id="form_101277" class="appnitro" method="post" action="registrationform.php">
+			<div class="form_description">
+				<h2>Registration Form</h2>
+			</div>
+			<ul>
+				<li id="li_1">
+					<label class="description" for="element_1">Name </label>
+					<span>
+<input id="element_1_1" name= "firstname" class="element text" maxlength="255" size="8" value=""/>
+<label>First</label>
+</span>
+					<span>
+<input id="element_1_2" name= "lastname" class="element text" maxlength="255" size="14" value=""/>
+<label>Last</label>
+</span>
+				</li>
+				<li id="li_2">
+					<label class="description" for="element_2">Age </label>
+					<div>
+						<input id="element_2" name="age" class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+					<p class="guidelines" id="guide_2"><small>Please enter your age on the date of the race.</small></p>
+				</li>
+				<li id="li_6">
+					<label class="description" for="element_6">Gender </label>
+					<span>
+<input id="element_6_1" name="male" class="element radio" type="radio" value="Male" />
+<label class="choice" for="element_6_1">Male</label>
+<input id="element_6_2" name="female" class="element radio" type="radio" value="Female" />
+<label class="choice" for="element_6_2">Female</label>
+<input id="element_6_3" name="nonbinary" class="element radio" type="radio" value="Non-Binary" />
+<label class="choice" for="element_6_3">Non-Binary</label>
+</span>
+				</li>
+				<li id="li_3">
+					<label class="description" for="element_3">Email </label>
+					<div>
+						<input id="element_3" name="email" class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_4">
+					<label class="description" for="element_4">Emergency Contact Name and Phone Number </label>
+					<div>
+						<input id="element_4" name="emergencycontact" class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+					<p class="guidelines" id="guide_4"><small>Please be sure your emergency contact is available by phone on the day of your event.</small></p>
+				</li>
+				<li id="li_8">
+					<label class="description" for="element_8">Athlete or Volunteer? Please select one </label>
+					<div>
+						<select class="element select medium" id="element_8" name="role">
+							<option value="" selected="selected"></option>
+							<option value="Athlete">Athlete</option>
+							<option value="Volunteer">Volunteer</option>
+						</select>
+					</div>
+				</li>
+				<li id="li_7">
+					<label class="description" for="element_7">Event Selection - Saturday, March 28th, 2020 </label>
+					<span>
+<input id="element_7_1" name="longcourse" class="element radio" type="radio" value="Long Course" />
+<label class="choice" for="element_7_1">Long Course Triathlon - $240</label>
+<input id="element_7_2" name="olympic" class="element radio" type="radio" value="Olympic" />
+<label class="choice" for="element_7_2">Olympic Triathlon - $110</label>
+<input id="element_7_3" name="tenk" class="element radio" type="radio" value="10K" />
+<label class="choice" for="element_7_3">10K Race - $50</label>
+<input id="element_7_4" name="halfmarathon" class="element radio" type="radio" value="Half Marathon" />
+<label class="choice" for="element_7_4">Half Marathon - $75</label>
+</span>
+				</li>
+				<li id="li_9">
+					<label class="description" for="element_9">Event Selection - Sunday, March 29th, 2020 </label>
+					<span>
+<input id="element_9_1" name="sprint" class="element radio" type="radio" value="Sprint" />
+<label class="choice" for="element_9_1">Sprint Triathlon - $90</label>
+<input id="element_9_2" name="try" class="element radio" type="radio" value="Try-a_Tri" />
+<label class="choice" for="element_9_2">Try-a-Tri - $65</label>
+<input id="element_9_3" name="splash" class="element radio" type="radio" value="Splash" />
+<label class="choice" for="element_9_3">Splash n Dash - $25  (Free with Adult Registration)</label>
+</span>
+				</li>
+				<li id="li_5">
+					<label class="description" for="element_5">Please let us know if you require special accommodations </label>
+					<div>
+						<textarea id="element_5" name="specialaccom" class="element textarea medium" rows="8" cols="50"></textarea>
+					</div>
+				</li>
+				<li class="buttons">
+					<input type="hidden" name="form_id" value="101277" />
+					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+				</li>
+			</ul>
+		</form>
+		<div id="footer">
+
+<!-- Generated by <a href="http://www.phpform.org">pForm</a> -->
+
+		</div>
+	</div>
+</body>
+
+</html>
